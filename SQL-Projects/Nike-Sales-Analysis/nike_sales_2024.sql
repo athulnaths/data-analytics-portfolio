@@ -1,76 +1,152 @@
-## 🗄 Nike Sales Performance Analysis (2024) — MySQL
+# Query Analysis
 
-### 📌 Project Overview
-This project analyzes Nike’s 2024 sales data using **MySQL** to uncover insights related to
-revenue performance, product demand, regional trends, pricing strategy, and sales channels.
-The analysis focuses on answering real-world business questions that support data-driven
-decision-making.
+-- 01. Total Revenue & Units Sold 
+SELECT 
+    SUM(revenue_usd) AS total_revenue,
+    SUM(units_sold) AS total_units_sold
+FROM nike_sales_2024;
 
----
+-- 02. Total Revenue by Region 
+SELECT 
+    Region, SUM(Revenue_USD) AS Total_Revenue
+FROM
+    nike_sales_2024
+GROUP BY Region
+ORDER BY Total_Revenue DESC;
 
-### 🧰 Tools & Skills Used
-- **MySQL**
-- SQL Queries
-- Data Aggregation & Filtering
-- Business Analysis & KPI Calculation
-- Sales & Revenue Analysis
+-- 03. Top 5 Regions by units sold 
+SELECT 
+    Region, SUM(Units_Sold) AS Total_Units
+FROM
+    nike_sales_2024
+GROUP BY Region
+ORDER BY Total_Units DESC
+LIMIT 5;
 
----
+-- 04. Revenue Contribution by Product Line 
+SELECT 
+    Product_Line, sub_category, SUM(Units_Sold) AS Total_Units, SUM(revenue_usd) AS total_revenue
+FROM
+    nike_sales_2024
+GROUP BY Product_Line, sub_category
+ORDER BY Total_Units DESC
+LIMIT 10;
 
-### 📊 Dataset Description
-The dataset contains Nike sales data for the year 2024, including:
-- Month of sale
-- Region
-- Main category & sub-category
-- Product line
-- Price tier (Budget / Mid-Range / Premium)
-- Units sold
-- Revenue (USD)
-- Online sales percentage
-- Retail price
+-- 05. Revenue by Price Tier
+SELECT 
+    price_tier,
+    SUM(revenue_usd) AS total_revenue,
+    ROUND(SUM(revenue_usd) / SUM(units_sold), 2) AS avg_revenue_per_unit
+FROM nike_sales_2024
+GROUP BY price_tier
+ORDER BY total_revenue DESC;
 
----
 
-### 📈 Business Questions Answered
-- What is the **total revenue and total units sold** in 2024?
-- Which **regions generate the highest revenue**?
-- Which **product lines and categories** perform best?
-- How does **price tier impact revenue and average selling price**?
-- Do products with higher **online sales percentage** generate more revenue?
-- What are the **monthly sales trends** across the year?
+ -- 06. Average online sales percentage for each sub-category 
+SELECT 
+    Sub_Category,
+    AVG(Online_Sales_Percentage) AS Avg_Online_Percentage
+FROM
+    nike_sales_2024
+GROUP BY Sub_Category
+ORDER BY Avg_Online_Percentage DESC;
 
----
+-- 07. Monthly Units Sold by Region
+SELECT 
+    Month, Region, SUM(Units_Sold) AS Total_Units, SUM(revenue_usd) AS monthly_revenue
+FROM
+    nike_sales_2024
+GROUP BY Month , Region
+ORDER BY Month , Total_Units DESC;
 
-### 🗄 SQL Concepts Used
-- `GROUP BY`, `ORDER BY`
-- Aggregate functions (`SUM`, `AVG`)
-- Sorting & ranking
-- KPI calculations
+-- 08. Seasonal Trends in Units Sold
+SELECT 
+    Month, SUM(Units_Sold) AS Total_Units
+FROM
+    nike_sales_2024
+GROUP BY Month
+ORDER BY FIELD(Month,
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December');
 
----
+-- 09.  Average Online Sales Percentage by Subcategory
+SELECT 
+    Month, AVG(Online_Sales_Percentage) AS Avg_Online_Sales
+FROM
+    nike_sales_2024
+GROUP BY Month
+ORDER BY FIELD(Month,
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December');
 
-### 🔍 Key Insights
-- Mid-Range priced products contribute a significant share of total revenue.
-- Certain regions consistently outperform others in online sales.
-- A small number of product lines generate a large portion of overall revenue.
-- Monthly revenue trends reveal seasonal sales patterns.
+-- 10. Product Lines with Maximum Revenue in India 
+SELECT 
+    Product_Line, SUM(Revenue_USD) AS Total_Revenue
+FROM
+    nike_sales_2024
+WHERE
+    Region = 'India'
+GROUP BY Product_Line
+ORDER BY Total_Revenue DESC;
 
----
+-- 11. Top Regions with Most Affordable Products
+SELECT 
+    Region, AVG(Retail_Price) AS Avg_Price
+FROM
+    nike_sales_2024
+GROUP BY Region
+ORDER BY Avg_Price ASC;
 
-### 📁 Project Structure
-Nike-Sales-Analysis/
-│
-├── README.md # Project documentation
-├── nike_sales_2024.sql # Table creation & analysis queries
-├── nike_sales_2024.csv # Dataset
-└── query_results/ # Exported query outputs (CSV)
+-- 12. Regions with high online sales and high revenue 
+SELECT 
+    region,
+    ROUND(AVG(online_sales_percentage), 2) AS avg_online_sales_pct,
+    SUM(revenue_usd) AS total_revenue
+FROM
+    nike_sales_2024
+GROUP BY region
+ORDER BY avg_online_sales_pct DESC , total_revenue DESC;
 
----
+-- 13. Monthly online sales by region 
+SELECT 
+    region,
+    month,
+    ROUND(AVG(online_sales_percentage), 2) AS avg_online_sales_pct
+FROM
+    nike_sales_2024
+GROUP BY region , month
+ORDER BY region , avg_online_sales_pct DESC;
 
-### 🎯 Project Purpose
-This project was created for **Data Analyst placements** to demonstrate:
-- Practical SQL skills
-- Ability to analyze real-world business data
-- Structured problem-solving approach
-- Clear communication of insights
+-- 14. Top online sales regions 
+SELECT 
+    region,
+    ROUND(AVG(online_sales_percentage), 2) AS avg_online_sales_pct
+FROM
+    nike_sales_2024
+GROUP BY region
+HAVING AVG(online_sales_percentage) > (SELECT 
+        AVG(online_sales_percentage)
+    FROM
+        nike_sales_2024)
+ORDER BY avg_online_sales_pct DESC;
 
