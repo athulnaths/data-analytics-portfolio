@@ -19,10 +19,16 @@ This repository contains my Data Analytics projects using:
 - SQL
 - Excel
 
-## 📁 Project Structure
-- PowerBI-Projects
-- SQL-Projects
-- Excel-Projects
+## 📁 Project Categories
+
+- 📊 [Power BI Projects](./PowerBI-Projects)  
+  Interactive dashboards and business insights using Power BI.
+
+- 🗄 [SQL Projects](./SQL-Projects)  
+  Data analysis using SQL queries, joins, and aggregations.
+
+- 📈 [Excel Projects](./Excel-Projects)  
+  Excel dashboards, pivot tables, and automated reports.
 
 ## 🎯 Purpose
 Created for Data Analyst placements to demonstrate real-world analytics skills.
