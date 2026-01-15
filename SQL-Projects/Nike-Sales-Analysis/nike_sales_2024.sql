@@ -1,50 +1,89 @@
-## 🗄 Nike Sales Performance Analysis (2024) – MySQL
+## 🗄 Nike Sales Performance Analysis (2024) — MySQL
 
 ### 📌 Project Overview
-This project analyzes Nike’s 2024 sales data using MySQL to uncover revenue trends,
-product performance, and regional insights for business decision-making.
+This project analyzes Nike’s 2024 sales data using **MySQL** to uncover insights related to
+revenue performance, product demand, regional trends, pricing strategy, and sales channels.
+The analysis focuses on answering real-world business questions that support data-driven
+decision-making.
 
 ---
 
 ### 🧰 Tools & Skills Used
-- MySQL
+- **MySQL**
 - SQL Queries
 - Data Aggregation & Filtering
-- Business Analysis
+- Business Analysis & KPI Calculation
+- Sales & Revenue Analysis
 
 ---
 
-### 📊 Business Questions Answered
-- What is the total revenue and units sold in 2024?
-- Which regions generate the highest revenue?
-- Which product lines drive the most sales?
-- How does pricing tier affect revenue?
-- Do online-heavy products generate higher revenue?
+### 📊 Dataset Description
+The dataset contains Nike sales data for the year 2024, including:
+- Month of sale
+- Region
+- Main category & sub-category
+- Product line
+- Price tier (Budget / Mid-Range / Premium)
+- Units sold
+- Revenue (USD)
+- Online sales percentage
+- Retail price
+
+---
+
+### 📈 Business Questions Answered
+- What is the **total revenue and total units sold** in 2024?
+- Which **regions generate the highest revenue**?
+- Which **product lines and categories** perform best?
+- How does **price tier impact revenue and average selling price**?
+- Do products with higher **online sales percentage** generate more revenue?
+- What are the **monthly sales trends** across the year?
 
 ---
 
 ### 🗄 SQL Concepts Used
-- GROUP BY & ORDER BY
-- Aggregations (SUM, AVG)
-- Filtering & Sorting
-- Business KPI calculations
+- `GROUP BY`, `ORDER BY`
+- Aggregate functions (`SUM`, `AVG`)
+- Sorting & ranking
+- KPI calculations
 
 ---
 
 ### 🔍 Key Insights
-- Premium price tier contributes the highest revenue.
-- Certain regions dominate online sales.
-- Top product lines generate a disproportionate share of total revenue.
+- Mid-Range priced products contribute a significant share of total revenue.
+- Certain regions consistently outperform others in online sales.
+- A small number of product lines generate a large portion of overall revenue.
+- Monthly revenue trends reveal seasonal sales patterns.
 
 ---
 
-### 📁 Files Included
-- `nike_sales_2024.sql` – Table creation & analysis queries
-- `nike_sales_2024.csv` – Dataset
-- `query_results/` – Exported query outputs
+### 📁 Project Structure
+Nike-Sales-Analysis/
+│
+├── README.md # Project documentation
+├── nike_sales_2024.sql # Table creation & analysis queries
+├── nike_sales_2024.csv # Dataset
+└── query_results/ # Exported query outputs (CSV)
 
 ---
 
-### 🎯 Purpose
-Created for Data Analyst placements to demonstrate practical SQL skills
-and business-focused data analysis.
+### 🎯 Project Purpose
+This project was created for **Data Analyst placements** to demonstrate:
+- Practical SQL skills
+- Ability to analyze real-world business data
+- Structured problem-solving approach
+- Clear communication of insights
+
+---
+
+### 🚀 Future Enhancements
+- Create a **Power BI dashboard** using the same dataset
+- Perform **trend analysis & forecasting**
+- Combine SQL + visualization for end-to-end analytics
+
+---
+
+### 📬 Contact
+For feedback or collaboration:
+- **LinkedIn**: https://linkedin.com/in/yourprofile
+
