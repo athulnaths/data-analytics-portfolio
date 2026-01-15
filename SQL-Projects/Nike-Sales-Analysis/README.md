@@ -59,10 +59,10 @@ The dataset contains Nike sales data for the year 2024, including:
 
 ### 📁 Project Structure
 Nike-Sales-Analysis/
-─ README.md # Project documentation
-─ nike_sales_2024.sql # Table creation & analysis queries
-─ nike_sales_2024.csv # Dataset
-─ query_results/ # Exported query outputs (CSV)
+- README.md # Project documentation
+- nike_sales_2024.sql # Table creation & analysis queries
+- nike_sales_2024.csv # Dataset
+- query_results/ # Exported query outputs (CSV)
 
 ---
 
