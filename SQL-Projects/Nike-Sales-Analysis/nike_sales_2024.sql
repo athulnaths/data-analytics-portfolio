@@ -74,16 +74,3 @@ This project was created for **Data Analyst placements** to demonstrate:
 - Structured problem-solving approach
 - Clear communication of insights
 
----
-
-### 🚀 Future Enhancements
-- Create a **Power BI dashboard** using the same dataset
-- Perform **trend analysis & forecasting**
-- Combine SQL + visualization for end-to-end analytics
-
----
-
-### 📬 Contact
-For feedback or collaboration:
-- **LinkedIn**: https://linkedin.com/in/yourprofile
-
