@@ -1,6 +1,6 @@
 # HR Workforce Analysis – Department-Wise Distribution
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes an HR dataset to understand 
 department-wise employee distribution within an organization. 
 The objective is to identify workforce concentration, 
@@ -8,7 +8,7 @@ staffing imbalance, and potential operational risks using data-driven analysis.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Analyze employee distribution across departments
 - Identify workforce concentration risks
 - Support HR planning and decision-making
@@ -16,7 +16,7 @@ staffing imbalance, and potential operational risks using data-driven analysis.
 
 ---
 
-## 🗂 Dataset Description
+## Dataset Description
 - Dataset Name: Human_Resources_2015_2024
 - Source: HR Dataset (Excel)
 - Total Employees: 966
@@ -28,7 +28,7 @@ staffing imbalance, and potential operational risks using data-driven analysis.
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 - The organization employs 966 employees across multiple departments.
 - Operations is the largest department, accounting for ~30% of the workforce, indicating a highly operations-driven business model.
 - Sales and Customer Service together represent ~40% of total employees, emphasizing strong focus on revenue generation and customer support.
@@ -37,7 +37,7 @@ staffing imbalance, and potential operational risks using data-driven analysis.
 
 ---
 
-## ❓ Business Questions Answered
+## Business Questions Answered
 - Which departments have the highest workforce concentration?
 - How balanced is the organizational structure?
 - What operational risks arise from workforce dependency?
@@ -45,7 +45,7 @@ staffing imbalance, and potential operational risks using data-driven analysis.
 
 ---
 
-## ✅ Data Validation
+## Data Validation
 To ensure accuracy:
 - Verified total employee count by cross-checking raw row count 
 with department-wise aggregation.
@@ -56,12 +56,12 @@ and distribution calculations.
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - Microsoft Excel (for aggregation and validation and visualization)
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 - This analysis provides a clear view of workforce distribution 
 and highlights key staffing risks. 
 - The findings can support HR leaders in workforce planning, 
