@@ -44,9 +44,11 @@ staffing imbalance, and potential operational risks using data-driven analysis.
 
 ## ✅ Data Validation
 To ensure accuracy:
-- Verified total employee count by cross-checking raw row count with department-wise aggregation.
+- Verified total employee count by cross-checking raw row count 
+with department-wise aggregation.
 - Ensured no rows were excluded due to filters or blank values.
-- Used **966 employees** as the baseline for all percentage and distribution calculations.
+- Used **966 employees** as the baseline for all percentage 
+and distribution calculations.
 - Validated consistency between Excel source data and analytical summaries.
 
 ---
@@ -60,8 +62,10 @@ To ensure accuracy:
 ---
 
 ## 📌 Conclusion
-This analysis provides a clear view of workforce distribution and highlights key staffing risks. 
-The findings can support HR leaders in workforce planning, risk mitigation, and strategic decision-making.
+This analysis provides a clear view of workforce distribution 
+and highlights key staffing risks. 
+The findings can support HR leaders in workforce planning, 
+risk mitigation, and strategic decision-making.
 
 ---
 
