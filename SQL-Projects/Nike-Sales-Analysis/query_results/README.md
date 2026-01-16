@@ -1,1 +1,1 @@
-Query outputs exported as CSV for analysis and validation.
+This folder contains exported SQL query results used for analysis and insights.
