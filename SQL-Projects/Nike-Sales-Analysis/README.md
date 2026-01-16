@@ -1,4 +1,4 @@
-## 🗄 Nike Sales Performance Analysis (2024) — MySQL
+## Nike Sales Performance Analysis (2024) — MySQL
 
 ### Project Overview
 This project analyzes Nike’s 2024 sales data using **MySQL** to uncover insights related to
