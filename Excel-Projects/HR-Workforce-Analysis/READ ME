@@ -23,12 +23,15 @@ staffing imbalance, and potential operational risks using data-driven analysis.
 - Key Columns:
   - Department
   - Employee Count
+  - Employement Status
+  - Job Title
 
 ---
 
 ## 📊 Key Insights
-- Operations is the largest department (~30%)
-- Sales and Customer Service together form ~40% of the workforce
+- The organization employs 966 employees across multiple departments.
+- Operations is the largest department, accounting for ~30% of the workforce, indicating a highly operations-driven business model.
+- Sales and Customer Service together represent ~40% of total employees, emphasizing strong focus on revenue generation and customer support.
 - IT supports internal operations (~14%)
 - Marketing has the lowest headcount (~7%)
 
@@ -54,23 +57,19 @@ and distribution calculations.
 ---
 
 ## 🛠 Tools & Technologies
-- Microsoft Excel
-- SQL (for aggregation and validation)
-- Python (optional for automation)
-- Power BI / Tableau (for visualization)
+- Microsoft Excel (for aggregation and validation and visualization)
 
 ---
 
 ## 📌 Conclusion
-This analysis provides a clear view of workforce distribution 
+- This analysis provides a clear view of workforce distribution 
 and highlights key staffing risks. 
-The findings can support HR leaders in workforce planning, 
+- The findings can support HR leaders in workforce planning, 
 risk mitigation, and strategic decision-making.
+- Operations dependency creates operational risk if attrition increases
+- Marketing headcount may limit brand growth and lead generation
+- Workforce balance can be improved by reallocating resources
+- IT staffing should be reviewed
 
 ---
 
-## 🚀 Future Enhancements
-- Add employee-level attributes (age, gender, experience, salary)
-- Perform attrition and tenure analysis
-- Build interactive dashboards
-- Forecast hiring requirements
