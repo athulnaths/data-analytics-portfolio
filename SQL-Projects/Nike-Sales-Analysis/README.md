@@ -1,6 +1,6 @@
 ## 🗄 Nike Sales Performance Analysis (2024) — MySQL
 
-### 📌 Project Overview
+### Project Overview
 This project analyzes Nike’s 2024 sales data using **MySQL** to uncover insights related to
 revenue performance, product demand, regional trends, pricing strategy, and sales channels.
 The analysis focuses on answering real-world business questions that support data-driven
@@ -8,7 +8,7 @@ decision-making.
 
 ---
 
-### 🧰 Tools & Skills Used
+### Tools & Skills Used
 - **MySQL**
 - SQL Queries
 - Data Aggregation & Filtering
@@ -17,7 +17,7 @@ decision-making.
 
 ---
 
-### 📊 Dataset Description
+### Dataset Description
 The dataset contains Nike sales data for the year 2024, including:
 - Month of sale
 - Region
@@ -31,7 +31,7 @@ The dataset contains Nike sales data for the year 2024, including:
 
 ---
 
-### 📈 Business Questions Answered
+### Business Questions Answered
 - What is the **total revenue and total units sold** in 2024?
 - Which **regions generate the highest revenue**?
 - Which **product lines and categories** perform best?
@@ -41,7 +41,7 @@ The dataset contains Nike sales data for the year 2024, including:
 
 ---
 
-### 🗄 SQL Concepts Used
+### SQL Concepts Used
 - `GROUP BY`, `ORDER BY`
 - Aggregate functions (`SUM`, `AVG`)
 - Sorting & ranking
@@ -49,7 +49,7 @@ The dataset contains Nike sales data for the year 2024, including:
 
 ---
 
-### 🔍 Key Insights
+### Key Insights
 - Mid-Range priced products contribute a significant share of total revenue.
 - Certain regions consistently outperform others in online sales.
 - A small number of product lines generate a large portion of overall revenue.
@@ -57,7 +57,7 @@ The dataset contains Nike sales data for the year 2024, including:
 
 ---
 
-### 📁 Project Structure
+### Project Structure
 Nike-Sales-Analysis/
 - README.md # Project documentation
 - nike_sales_2024.sql # Table creation & analysis queries
@@ -66,7 +66,7 @@ Nike-Sales-Analysis/
 
 ---
 
-### 🎯 Project Purpose
+### Project Purpose
 This project was created for **Data Analyst placements** to demonstrate:
 - Practical SQL skills
 - Ability to analyze real-world business data
