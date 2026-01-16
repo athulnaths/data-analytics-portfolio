@@ -1,0 +1,85 @@
+Month,Region,Total_Units,monthly_revenue
+April,Japan,392019,69791630
+April,"Southeast Asia",375409,71265390
+April,"Greater China",335511,70385770
+April,America,252123,52501420
+April,"South Korea",235931,30772770
+April,India,233026,33586070
+April,Europe,170028,34895390
+August,"South Korea",379927,67288850
+August,America,377068,76004120
+August,India,357429,64726220
+August,Japan,351523,59390790
+August,Europe,293005,44546200
+August,"Greater China",184544,31444340
+August,"Southeast Asia",138039,24647780
+December,India,596956,92909840
+December,"Greater China",490727,85659110
+December,Japan,466400,83743230
+December,Europe,452843,88371270
+December,America,372655,70334630
+December,"Southeast Asia",289709,59952950
+December,"South Korea",268569,47242630
+February,"South Korea",520832,81613060
+February,America,418893,77426340
+February,Europe,407422,62570480
+February,"Greater China",397741,70365390
+February,Japan,381703,71464740
+February,India,378443,67294340
+February,"Southeast Asia",284617,57397630
+January,"Greater China",457172,74566960
+January,"South Korea",439864,75533080
+January,"Southeast Asia",409775,70524390
+January,Europe,320982,51160120
+January,India,242573,49740870
+January,America,221814,44998210
+January,Japan,171771,25110960
+July,India,473440,97494820
+July,America,379861,73129540
+July,Japan,366236,76996790
+July,"Southeast Asia",346721,63299160
+July,"Greater China",303782,42695810
+July,"South Korea",284993,52083000
+July,Europe,230059,30010300
+June,Japan,474449,87011130
+June,America,427486,78564650
+June,"South Korea",379630,67681090
+June,"Greater China",338453,64011470
+June,India,334830,62647530
+June,"Southeast Asia",277837,30530430
+June,Europe,224902,38404000
+March,"South Korea",432025,77001990
+March,America,406819,57605020
+March,"Southeast Asia",265324,58380110
+March,"Greater China",262712,47389370
+March,Europe,240194,52510480
+March,India,232387,43190210
+March,Japan,219073,39463440
+May,America,542159,91459950
+May,Europe,428818,92428670
+May,"Greater China",418496,65309840
+May,"South Korea",375081,61052700
+May,India,280911,50454510
+May,"Southeast Asia",268495,39077700
+May,Japan,139932,28249590
+November,India,434197,91598760
+November,"Greater China",357711,74221740
+November,Japan,325849,72281310
+November,America,296523,59943990
+November,"Southeast Asia",282097,42429750
+November,"South Korea",220357,40747380
+November,Europe,197677,32178410
+October,"Greater China",498725,81497170
+October,Japan,432203,70801570
+October,"South Korea",359816,54364390
+October,America,353706,54988750
+October,Europe,351214,60985190
+October,India,232616,30718500
+October,"Southeast Asia",148360,30126000
+September,"Greater China",636789,96996660
+September,Japan,523355,103931230
+September,Europe,396345,51930630
+September,India,297951,58667660
+September,America,261891,47683930
+September,"Southeast Asia",240622,32484800
+September,"South Korea",228799,43638320
