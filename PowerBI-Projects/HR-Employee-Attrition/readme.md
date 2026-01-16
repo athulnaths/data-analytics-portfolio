@@ -45,10 +45,19 @@ This project analyzes employee attrition using HR data to identify key drivers o
 
 ---
 
-## Business Questions Answered
-- Who is most likely to leave the organization?
-- What factors drive employee attrition?
-- How can HR reduce turnover using data insights?
+## Analytical & Business Questions
+
+- What is the overall employee attrition rate?
+- Which departments and job roles have the highest attrition?
+- How does attrition vary by job level and tenure?
+
+- Does frequent business travel increase attrition?
+- How does monthly income impact employee retention?
+- Are employees with lower job satisfaction more likely to leave?
+
+- Which employee segments are at highest attrition risk?
+- What retention strategies can reduce early-tenure attrition?
+- How can promotions and career growth improve retention?
 
 ---
 
