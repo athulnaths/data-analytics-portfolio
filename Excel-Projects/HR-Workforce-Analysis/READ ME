@@ -1,3 +1,68 @@
-Analyzed HR workforce data to identify department-wise employee distribution, 
-workforce concentration risks, and staffing imbalance. Generated actionable HR insights 
-to support strategic workforce planning using Excel, SQL, and visualization tools.
+# HR Workforce Analysis – Department-Wise Distribution
+
+## 📌 Project Overview
+This project analyzes an HR dataset to understand department-wise employee distribution within an organization. The objective is to identify workforce concentration, staffing imbalance, and potential operational risks using data-driven analysis.
+
+---
+
+## 🎯 Objectives
+- Analyze employee distribution across departments
+- Identify workforce concentration risks
+- Support HR planning and decision-making
+- Translate data into actionable business insights
+
+---
+
+## 🗂 Dataset Description
+- Dataset Name: Human_Resources_2015_2024
+- Source: HR Dataset (Excel)
+- Total Employees: 966
+- Key Columns:
+  - Department
+  - Employee Count
+
+---
+
+## 📊 Key Insights
+- Operations is the largest department (~30%)
+- Sales and Customer Service together form ~40% of the workforce
+- IT supports internal operations (~14%)
+- Marketing has the lowest headcount (~7%)
+
+---
+
+## ❓ Business Questions Answered
+- Which departments have the highest workforce concentration?
+- How balanced is the organizational structure?
+- What operational risks arise from workforce dependency?
+- Where can HR optimize staffing allocation?
+
+---
+
+## ✅ Data Validation
+To ensure accuracy:
+- Verified total employee count by cross-checking raw row count with department-wise aggregation.
+- Ensured no rows were excluded due to filters or blank values.
+- Used **966 employees** as the baseline for all percentage and distribution calculations.
+- Validated consistency between Excel source data and analytical summaries.
+
+---
+
+## 🛠 Tools & Technologies
+- Microsoft Excel
+- SQL (for aggregation and validation)
+- Python (optional for automation)
+- Power BI / Tableau (for visualization)
+
+---
+
+## 📌 Conclusion
+This analysis provides a clear view of workforce distribution and highlights key staffing risks. The findings can support HR leaders in workforce planning, risk mitigation, and strategic decision-making.
+
+---
+
+## 🚀 Future Enhancements
+- Add employee-level attributes (age, gender, experience, salary)
+- Perform attrition and tenure analysis
+- Build interactive dashboards
+- Forecast hiring requirements
