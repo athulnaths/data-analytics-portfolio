@@ -6,13 +6,13 @@ The objective is to analyze factors influencing student exam scores and extract 
 ## Business Objective
 
 To identify key factors impacting student performance such as:
-• Study hours
-• Parental involvement
-• Tutoring
-• Family income
-• Internet access
-• Motivation level
-• School type
+- Study hours
+- Parental involvement
+- Tutoring
+- Family income
+- Internet access
+- Motivation level
+- School type
 
 The analysis aims to simulate real-world data analyst tasks including performance segmentation, ranking analysis, and percentage distribution studies.
 
@@ -28,12 +28,12 @@ Source: Kaggle
 
 ## Tools & Technologies Used
 
-MySQL
-Window Functions (RANK, NTILE, PERCENT_RANK)
-Aggregations (SUM, AVG, COUNT)
-Conditional Statements (CASE WHEN)
-Subqueries
-Percentage Distribution Analysis
+- MySQL
+- Window Functions (RANK, NTILE, PERCENT_RANK)
+- Aggregations (SUM, AVG, COUNT)
+- Conditional Statements (CASE WHEN)
+- Subqueries
+- Percentage Distribution Analysis
 
 # Key Analysis Performed
 
@@ -58,16 +58,16 @@ Cumulative performance analysis
 
 ## Key Insights
 
-Students with higher parental involvement tend to perform better on average.
-Internet access percentage increases significantly in higher income groups.
-The top 10% performing students are strongly associated with high motivation levels.
-Tutoring shows a measurable positive impact on average exam scores.
+- Students with higher parental involvement tend to perform better on average.
+- Internet access percentage increases significantly in higher income groups.
+- The top 10% performing students are strongly associated with high motivation levels.
+- Tutoring shows a measurable positive impact on average exam scores.
 
 ## Advanced SQL Concepts Used
 
-Window Functions (RANK, PERCENT_RANK)
-Partitioning and Ordering
-Percentage Contribution Calculation
-Correlated Subqueries
-Data Segmentation Techniques
+- Window Functions (RANK, PERCENT_RANK)
+- Partitioning and Ordering
+- Percentage Contribution Calculation
+- Correlated Subqueries
+- Data Segmentation Techniques
 
