@@ -19,11 +19,8 @@ The analysis aims to simulate real-world data analyst tasks including performanc
 ## Dataset Information 
 
 Dataset Name: Student Performance Factors
-
 Rows: 6607
-
 Columns: 20
-
 Source: Kaggle
 
 ## Tools & Technologies Used
