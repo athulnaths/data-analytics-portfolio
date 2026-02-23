@@ -28,3 +28,8 @@ select Hours_Studied, Exam_Score,
 Round(Avg(Exam_Score) over ( order by Hours_Studied Rows between unbounded preceding and current row),2) as running_avg_exam_score 
 from studentperformancefactors 
 order by Hours_Studied;
+
+-- 5. Top 10% students using NTILE
+SELECT *,
+       NTILE(10) OVER (ORDER BY Exam_Score DESC) AS performance_decile
+FROM studentperformancefactors;
