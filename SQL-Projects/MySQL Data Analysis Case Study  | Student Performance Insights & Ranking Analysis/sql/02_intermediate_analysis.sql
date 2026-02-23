@@ -27,7 +27,7 @@ WHERE
             studentperformancefactors)
 ORDER BY Exam_Score;
 
--- 4. Use a CASE statement to classify Exam Score as:
+-- 4. Classify Exam Score as:
 -- High (>= 75)
 -- Medium (60–74)
 -- Low (< 60)
